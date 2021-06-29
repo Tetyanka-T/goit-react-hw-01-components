@@ -1,0 +1,27 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+  list-style: none;
+  background-color: #f3f6f9;
+  text-align: center;
+  height: 50px;
+  padding: 20px;
+}
+.item {
+}
+
+.label {
+  color: #97a2ae;
+
+  font-size: 12px;
+  display: flex;
+}
+
+.quantity {
+  margin-top: 10px;
+  line-height: 1.2;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+}
