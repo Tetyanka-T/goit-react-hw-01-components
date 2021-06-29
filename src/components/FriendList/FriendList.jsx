@@ -19,7 +19,6 @@ export default function FriendList({ friends }) {
           <p className={s.name}>{friend.name}</p>
         </li>
       ))}
-      <li></li>
     </ul>
   );
 }
